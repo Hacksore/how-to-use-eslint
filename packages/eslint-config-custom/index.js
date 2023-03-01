@@ -11,12 +11,15 @@ const config = {
   plugins: ["react"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
-    ecmaFeatures: "latest",
-    ecmaVersion: {
+    ecmaFeatures: {
       jsx: true,
+    },
+    ecmaVersion: {
     },
   },
   rules: {
+    "react/jsx-uses-react": "error",
+    "react/react-in-jsx-scope": "off",
     quotes: ["error", "double"],
   },
 };

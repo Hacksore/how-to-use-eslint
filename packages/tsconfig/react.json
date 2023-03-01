@@ -6,6 +6,8 @@
     "jsx": "react-jsx",
     "lib": ["ES2015", "DOM"],
     "module": "ESNext",
+    "noUnusedLocals": true,
+    "strict": true,
     "noEmit": true,
     "target": "es6"
   }
