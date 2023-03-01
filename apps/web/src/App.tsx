@@ -7,10 +7,9 @@ function App() {
   return (
     <div>
       {state}
-      <button onClick={() => setState(state => state + 1)}>Click me</button>
+      <button onClick={() => setState((state) => state + 1)}>Click me</button>
     </div>
-  )
-  
+  );
 }
 
-export default App
+export default App;
